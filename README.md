@@ -18,8 +18,9 @@ https://www.virtualbox.org/
 
 ## We will use port forwarding
 ###  So VM will be accessible via ssh on your host with port 2222 and the app will be available at port 4567 on your web browser
-HOST port   -> VM port
+### HOST port   -> VM port
 2222        -> 22
+### And
 4567        -> 80
 
 ## Create Directory (use windows CMD or Powershell)
