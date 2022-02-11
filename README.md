@@ -1,6 +1,6 @@
 # Result test for liveneex.fr by Fabrice
-## Ho to deplay a test app based on symfony and php7.4 using vagran and virtualbox
-## You nedd at least 1 gigs of RAM, 1 CPU, and more than 50 gigs of disque 
+## Ho to deploy a test app based on symfony and php7.4 using vagran and virtualbox
+## You need at least 1 gigs of RAM, 1 CPU, and more than 50 gigs of disque 
 
 ## What you need are:
 - vagrant 2.2.16 or higher
