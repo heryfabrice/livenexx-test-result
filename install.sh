@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-# Variable
-WEBDIR="/var/www/html"
-DEMO="/var/www/html/demo"
-
 echo "
     ##------------------------------------------------------//
     ##       Script d'installation de la VM Ubuntu          //
@@ -18,7 +14,7 @@ if [ $(whoami) != "root" ]; then
 fi
 
 # Nettoyage des dépendences
-apt-get-get -y update
+apt-get -y update
 rm -rf /var/lib/apt/lists/*
 apt-get -y update
 
